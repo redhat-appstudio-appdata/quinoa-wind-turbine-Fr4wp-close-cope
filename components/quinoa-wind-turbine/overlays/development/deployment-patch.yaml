@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: quinoa-wind-turbine
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/quinoa-wind-turbine/quinoa-wind-turbine@sha256:a00698a9b85be3d02dfa6ddebb3a2a91eb7a0b0f0922a5c9048b2670c11e5c64
+        name: my-java-quarkus
+        resources: {}
+status: {}
