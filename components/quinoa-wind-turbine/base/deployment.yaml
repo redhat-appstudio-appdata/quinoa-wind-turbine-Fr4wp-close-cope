@@ -30,7 +30,7 @@ spec:
           value: WAo1jmPv
         - name: QUARKUS_PROFILE
           value: openshift-cluster
-        image: java-quarkus-image:latest
+        image: quay.io/redhat-user-workloads/nvinto-ocm-tenant/quinoa-wind-turbine/quinoa-wind-turbine@sha256:a00698a9b85be3d02dfa6ddebb3a2a91eb7a0b0f0922a5c9048b2670c11e5c64
         name: my-java-quarkus
         ports:
         - containerPort: 8081
